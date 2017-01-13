@@ -1,0 +1,11 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/*Background Noise Grey*/
+
+@import url(../outercolor/white.css);
+
+#page {	background: #505052 url(../../images/background/noise_grey/noise_grey_bg.jpg) 0 0 repeat; }
+
+.searchbox.loading button { background-image: url(../../images/background/noise_grey/searchbox_loader.gif); }
+
+.custom-logo { background-image: url(../../../../images/yootheme/logo_white.png); }

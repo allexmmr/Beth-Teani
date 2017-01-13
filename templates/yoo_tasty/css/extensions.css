@@ -1,0 +1,35 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/* Widgetkit Spotlight Overlay Style */
+
+.spotlight[data-spotlight*="fade"] .overlay { background: none; }
+
+.spotlight[data-spotlight*="fade"] .overlay > div {
+	color: #fff;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	bottom: 10px;
+	left: 10px;
+	padding: 20px;
+	overflow: hidden;
+}
+
+.spotlight[data-spotlight*="fade"] .overlay.remove-padding > div {
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: 0;
+}
+
+.wk-ie .spotlight .overlay { filter: none; }
+
+.spotlight[data-spotlight*="fade"] .overlay > div h2 { margin: 0; }
+
+#page #yoo-zoo h1,
+#page #yoo-zoo h2,
+#page #yoo-zoo h3,
+#page #yoo-zoo h4,
+#page #yoo-zoo h5,
+#page #yoo-zoo h6 { font-weight: normal; }

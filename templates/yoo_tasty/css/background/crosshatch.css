@@ -1,0 +1,9 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/*Background Hatch*/
+
+.searchbox.loading button { background-image: url(../../images/background/crosshatch/searchbox_loader.gif); }
+
+#page {	background: #fff url(../../images/background/crosshatch/crosshatch_bg.png) 50% 0 repeat; }
+
+#page-bg { background: url(../../images/background/crosshatch/crosshatch_img.png) 50% 0 repeat-y; }

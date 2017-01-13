@@ -1,0 +1,14 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/*Background Wood*/
+
+@import url(../outercolor/black.css);
+
+#page {	background: #e2caa8 url(../../images/background/wood/wood_bg.png) 0 0 repeat; }
+
+#page-bg { 
+	background: url(../../images/background/wood/radial_gradient.svg) 50% 0 no-repeat fixed;
+	background-size: 100% 100%;
+}
+
+.searchbox.loading button { background-image: url(../../images/background/wood/searchbox_loader.gif); }

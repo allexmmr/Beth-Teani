@@ -1,0 +1,10 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/*Background Noise Light Grey*/
+
+#page {	background: #dfdfdf url(../../images/background/noise_lightgrey/noise_lightgrey_bg.jpg) 0 0 repeat; }
+
+#page-bg { 
+	background: url(../../images/background/noise_lightgrey/radial_gradient.svg) 50% 0 no-repeat fixed;
+	background-size: 100% 100%;
+}

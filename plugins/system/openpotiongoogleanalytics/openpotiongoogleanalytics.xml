@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="plugin" group="system" method="upgrade">
+	<name>System - OpenPotion Asynchronous Google Analytics</name>
+	<author>OpenPotion</author>
+	<creationDate>25 May 2012</creationDate>
+	<copyright>Copyright (C) 2013 OpenPotion. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>jason@openpotion.com</authorEmail>
+	<authorUrl>www.openpotion.com</authorUrl>
+	<version>3.2</version>
+	<description>PLG_SYSTEM_OPENPOTIONGOOGLEANALYTICS_DESC</description>
+	<files>
+		<filename plugin="openpotiongoogleanalytics">openpotiongoogleanalytics.php</filename>
+	</files>
+	<languages>
+		<language tag="en-GB">language/en-GB/en-GB.plg_system_openpotiongoogleanalytics.ini</language>
+		<language tag="en-GB">language/en-GB/en-GB.plg_system_openpotiongoogleanalytics.sys.ini</language>
+	</languages>
+	<params>
+		<param name="method" type="radio" default="0" label="PLG_OP_GA_METHOD" description="PLG_OP_GA_METHOD_DESC">
+			<option value="0">PLG_OP_GA_METHOD_0</option>
+			<option value="1">PLG_OP_GA_METHOD_1</option>
+		</param>
+		<param name="insertion" type="list" default="0" label="PLG_OP_GA_INSERTION" description="PLG_OP_GA_INSERTION_DESC">
+			<option value="0">PLG_OP_GA_INSERTION_0</option>
+			<option value="2">PLG_OP_GA_INSERTION_2</option>
+			<option value="1">PLG_OP_GA_INSERTION_1</option>
+		</param>
+		
+		<param type="spacer" default="PLG_OP_GA_SPACER1"/>
+		<param name="web_property_id" type="text" default="" label="PLG_OP_GA_WEBPROPERTY" description="PLG_OP_GA_WEBPROPERTY_DESC" />
+		<param name="domain_model" type="list" default="0" label="PLG_OP_GA_DOMAIN_MODEL" description="PLG_OP_GA_DOMAIN_MODEL_DESC">
+			<option value="0">PLG_OP_GA_DOMAIN_MODEL_0</option>
+			<option value="1">PLG_OP_GA_DOMAIN_MODEL_1</option>
+			<option value="2">PLG_OP_GA_DOMAIN_MODEL_2</option>
+		</param>
+		<param name="tracking_domain" type="text" default="" label="PLG_OP_GA_TRACKING" description="PLG_OP_GA_TRACKING_DESC" />
+		
+		<param type="spacer" default="PLG_OP_GA_SPACER2" />
+		<param name="web_code" type="textarea" default="" label="PLG_OP_GA_CODE" description="PLG_OP_GA_CODE_DESC" rows="5" cols="26" />
+	</params>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="method" type="radio" default="0" label="PLG_OP_GA_METHOD" description="PLG_OP_GA_METHOD_DESC">
+					<option value="0">PLG_OP_GA_METHOD_0</option>
+					<option value="1">PLG_OP_GA_METHOD_1</option>
+				</field>
+				<field name="insertion" type="list" default="0" label="PLG_OP_GA_INSERTION" description="PLG_OP_GA_INSERTION_DESC">
+					<option value="0">PLG_OP_GA_INSERTION_0</option>
+					<option value="2">PLG_OP_GA_INSERTION_2</option>
+					<option value="1">PLG_OP_GA_INSERTION_1</option>
+				</field>
+
+				<field type="spacer" name="web_id" label="PLG_OP_GA_SPACER1"/>
+				<field name="web_property_id" type="text" default="" label="PLG_OP_GA_WEBPROPERTY" description="PLG_OP_GA_WEBPROPERTY_DESC" />
+				<field name="domain_model" type="list" default="0" label="PLG_OP_GA_DOMAIN_MODEL" description="PLG_OP_GA_DOMAIN_MODEL_DESC">
+					<option value="0">PLG_OP_GA_DOMAIN_MODEL_0</option>
+					<option value="1">PLG_OP_GA_DOMAIN_MODEL_1</option>
+					<option value="2">PLG_OP_GA_DOMAIN_MODEL_2</option>
+				</field>
+				<field name="tracking_domain" type="text" default="" label="PLG_OP_GA_TRACKING" description="PLG_OP_GA_TRACKING_DESC" />
+
+				<field type="spacer" name="web_co" label="PLG_OP_GA_SPACER2" />
+				<field name="web_code" type="textarea" default="" label="PLG_OP_GA_CODE" description="PLG_OP_GA_CODE_DESC" rows="5" cols="26" filter="raw" />
+			</fieldset>
+		</fields>
+	</config>
+</extension>

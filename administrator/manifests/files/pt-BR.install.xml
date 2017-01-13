@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5.0" type="file" method="upgrade">
+	<name>MijoPolls</name>
+	<creationDate>17/03/2012</creationDate>
+	<author>Mijosoft</author>
+	<authorEmail>info@mijosoft.com</authorEmail>
+	<authorUrl>http://www.mijosoft.com/</authorUrl>
+	<copyright>2009-2012 Mijosoft LLC</copyright>
+	<description>Brazilian (pt-BR) translation for MijoPolls.</description>
+	<version>2.5.0</version>
+	<tag>pt-BR</tag>
+	
+"" <fileset>
+		<files folder="admin" target="administrator/language/pt-BR">
+		<filename>pt-BR.com_mijopolls.ini</filename>
+		<filename>pt-BR.com_mijopolls.menu.ini</filename>
+
+    </files>
+    <files folder="site" target="language/pt-BR">
+		<filename>pt-BR.com_mijopolls.ini</filename>
+		<filename>pt-BR.mod_mijopolls.ini</filename>
+		
+   
+    </files>
+  </fileset>
+</extension>
+
+

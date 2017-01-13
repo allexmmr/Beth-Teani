@@ -1,0 +1,16 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/*Background Fabric*/
+
+@import url(../outercolor/black.css);
+
+#page {	background: #d7d4c5 url(../../images/background/fabric/fabric_bg.jpg) 50% 0 repeat; }
+
+#page-bg { background: url(../../images/background/fabric/fabric_img.jpg) 50% 0 no-repeat; }
+
+#page-bg > div { 
+	background: url(../../images/background/fabric/radial_gradient.svg) 0 0 no-repeat fixed;
+	background-size: 100% 100%;
+}
+
+.searchbox.loading button { background-image: url(../../images/background/fabric/searchbox_loader.gif); }

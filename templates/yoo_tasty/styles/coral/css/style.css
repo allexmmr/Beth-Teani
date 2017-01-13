@@ -1,0 +1,197 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/*
+ * Style Style Sheet - Defines the main look like colors and backgrounds
+ * Not all style related CSS is included, only colors and backgrounds which may change for different theme styles
+ */
+
+
+/* Base
+----------------------------------------------------------------------------------------------------*/
+
+a { color: #F45C40; }
+
+::-moz-selection { background: #F45C40; }
+::selection { background: #F45C40; }
+
+
+/* Layout
+----------------------------------------------------------------------------------------------------*/
+
+.outer .mod-transparent a:hover,
+#footer a:hover { color: #F45C40; }
+
+#totop-scroller { background-image: url(../images/totop_scroller.png); }
+
+
+/* Menus
+----------------------------------------------------------------------------------------------------*/
+
+#menu .fancy,
+.menu-dropdown .dropdown-bg > div { background: #F45C40; }
+
+.menu-dropdown li.level1.parent:hover,
+.menu-dropdown li.remain.parent { background: url(../images/menu_dropdown_arrow.png) 50% 100% no-repeat; }
+
+.menu-dropdown li.level2 { border-top: solid 1px #F89D8C; }
+
+.menu-dropdown a.level2:hover,
+.menu-dropdown a.level2.current,
+.menu-dropdown a.level3:hover,
+.menu-dropdown a.level3.current,
+.menu-dropdown .level2 .level2 span.subtitle { color: #7F2C1F; }
+
+.menu-dropdown a.level3 { background-image: url(../images/menu_dropdown_level3.png); }
+
+.menu-sidebar a:hover,
+.menu-sidebar li > span:hover,
+.menu-sidebar a.current,
+.menu-sidebar li.parent.active .level1 { color: #F45C40; }
+
+.menu-sidebar li.parent .level1 > span { background-image: url(../images/menu_sidebar_parent.png); }
+
+.menu-sidebar .level2 a > span { background-image: url(../images/menu_sidebar_level2.png); }
+
+.mod-box-black .menu-sidebar a:hover,
+.mod-box-black .menu-sidebar li > span:hover,
+.mod-box-black .menu-sidebar a.current,
+.mod-box-black .menu-sidebar li.parent.active .level1 > span { color: #F45C40; }
+
+.mod-box-black .menu-sidebar li.parent .level1 > span { background-image: url(../images/menu_sidebar_parent_black.png); }
+.mod-box-black .menu-sidebar .level2 a > span { background-image: url(../images/menu_sidebar_level2_black.png); }
+
+.mod-box-color .menu-sidebar a:hover,
+.mod-box-color .menu-sidebar li > span:hover,
+.mod-box-color .menu-sidebar a.current,
+.mod-box-color .menu-sidebar li.parent.active .level1 > span { color: #7F2C1F; }
+
+.mod-box-color .menu-sidebar li.level1 { border-color: #F89D8C; }
+
+
+.mod-box-color .menu-sidebar li.parent .level1 > span { background-image: url(../images/menu_sidebar_parent_color.png); }
+.mod-box-color .menu-sidebar .level2 a > span { background-image: url(../images/menu_sidebar_level2_color.png); }
+
+
+/* Modules
+----------------------------------------------------------------------------------------------------*/
+
+.module .badge { background-image: url(../images/module_badges.png); }
+
+.mod-transparent .badge { background-image: url(../images/module_badges_line.png); }
+
+.mod-box-color { background: #F45C40; }
+
+.mod-box-color a,
+.menu-dropdown .module a { color: #7F2C1F; }
+
+.mod-box-color::-moz-selection { background: #7F2C1F; }
+.mod-box-color::selection { background: #7F2C1F; }
+
+
+/* Tools
+----------------------------------------------------------------------------------------------------*/
+
+.button-default:hover,
+.button-primary,
+form.style button:hover, 
+form.style input[type="button"]:hover { background: #F45C40; }
+
+.mod-box-black .button-default,
+.mod-box-color .button-default:hover,
+.mod-box-color .button-primary,
+.mod-box-black form.style button, 
+.mod-box-black form.style input[type="button"],
+.mod-box-color form.style button:hover, 
+.mod-box-color form.style input[type="button"]:hover { background: #7F2C1F; }
+
+.mod-box-black .button-default,
+.mod-box-black .button-default:hover,
+.mod-box-color .button-default,
+.mod-box-color .button-default:hover,
+.mod-box-color .button-primary,
+.mod-box-color .button-primary:hover,
+.mod-box-black form.style button, 
+.mod-box-black form.style input[type="button"],
+.mod-box-black form.style button:hover, 
+.mod-box-black form.style input[type="button"]:hover,
+.mod-box-color form.style button, 
+.mod-box-color form.style input[type="button"],
+.mod-box-color form.style button:hover, 
+.mod-box-color form.style input[type="button"]:hover { color: #F45C40; } 
+
+.mod-box-black .button-primary,
+.mod-box-black .button-primary:hover { color: #7F2C1F; }
+
+.mod-box-color ul.line > li { border-color: #F89D8C; }
+
+ul.check > li { background-image: url(../images/tools/list_check.png); }
+
+.mod-box-color ul.zebra > li.odd,
+.mod-box-color table.zebra tbody tr.odd { background: #F89D8C; }
+.mod-box-color ul.zebra > li:nth-of-type(odd),
+.mod-box-color table.zebra tbody tr:nth-of-type(odd) { background: #F89D8C; }
+
+em.box,
+.mod-box-black em.box { background: #F45C40; }
+.mod-box-color em.box { color: #7F2C1F; }
+
+blockquote.color {
+	background-image: url(../images/blockquote.png);
+	color: #F45C40;
+}
+
+/* System
+----------------------------------------------------------------------------------------------------*/
+
+#system .item > .links a { 
+	background-image: url(../images/tools/system_item_links.png);
+	line-height: 18px;
+}
+
+#system .pagination a.previous, 
+#system .pagination a.next { background-image: url(../images/pagination.png); }
+
+.searchbox .results:before { background: url(../images/menu_dropdown_arrow.png); }
+
+.searchbox .results { background: #F45C40; }
+
+.searchbox .results li.results-header { border-bottom-color: #F89D8C; }
+.searchbox .results li.more-results { 
+	border-top-color: #F89D8C;
+	color: #7F2C1F;
+}
+.searchbox .results li.result { border-top-color: #F89D8C; }
+
+.searchbox .results li.result h3,
+.searchbox .results li.result.selected { color: #7F2C1F; }
+
+/* Extensions
+----------------------------------------------------------------------------------------------------*/
+
+.wk-slideshow-tasty .caption,
+.spotlight .overlay,
+.spotlight[data-spotlight*="fade"] .overlay > div { 
+	background: #F45C40;
+	background: rgba(244,92,64,0.85); 
+}
+
+
+/* Widgetkit Slideshow
+----------------------------------------------------------------------------------------------------*/
+
+.wk-slideshow-tasty .nav span { background-image: url(../images/widgetkit/nav.png); }
+
+.wk-slideshow-tasty > div:hover .next,
+.wk-slideshow-tasty > div:hover .prev { background-image: url(../images/widgetkit/buttons.png); }
+
+
+/* Widgetkit Gallery
+----------------------------------------------------------------------------------------------------*/
+
+.wk-slideshow-inside-tasty .nav li:hover:before {
+	background-color: #F45C40;
+	background-color: rgba(244,92,64,0.85);
+}
+
+.wk-slideshow-inside-tasty > div:hover .next,
+.wk-slideshow-inside-tasty > div:hover .prev { background-image: url(../images/widgetkit/buttons.png); }

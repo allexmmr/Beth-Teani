@@ -1,0 +1,183 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@import url(../warp/css/modules.css);
+
+.module .module-title { 
+	font-size: 22px;
+	line-height: 22px;
+}
+
+#bottom-b .mod-headerline .module-title { 
+	line-height: 18px;
+	font-size: 18px;
+}
+
+/* Module Badges
+----------------------------------------------------------------------------------------------------*/
+
+.module .badge {
+	right: 20px;
+	width: 34px;
+	height: 34px;
+	background-position: 0 0;
+	background-repeat: no-repeat;
+}
+
+.module .badge-hot { background-position: 0 0; }
+.module .badge-top { background-position: 0 -40px; }
+.module .badge-free { background-position: 0 -80px; }
+.module .badge-new { background-position: 0 -120px; }
+
+.module .badge + .module-title { padding-right: 40px; }
+
+
+/* Module Icons
+----------------------------------------------------------------------------------------------------*/
+
+.module .module-title .icon,
+#top-a .mod-box-default .module-title .icon,
+#bottom-b .mod-box-default .module-title .icon {
+	width: 31px;
+	height: 31px;
+	background: url(../images/module_icons.png) 0 0 no-repeat;
+ }
+
+.module .module-title .icon-download { background-position: 0 0; }
+.module .module-title .icon-twitter { background-position: 0 -35px; }
+.module .module-title .icon-mail { background-position: 0 -70px; }
+.module .module-title .icon-bubble { background-position: 0 -105px; }
+.module .module-title .icon-login { background-position: 0 -140px; }
+.module .module-title .icon-cart { background-position: 0 -175px; }
+
+
+/* Module Type: Box
+----------------------------------------------------------------------------------------------------*/
+
+.mod-box {
+	background: #fff;
+}
+
+.mod-box .module-title .icon  { background-image: url(../images/module_icons_white.png); }
+
+.mod-box ul.line > li { border-color: #bbb; }
+
+.mod-box ul.zebra > li,
+.mod-box table.zebra tbody td { border-bottom: 1px solid #bbb; }
+.mod-box ul.zebra > li:first-child,
+.mod-box table.zebra tbody tr:first-child td { border-top: 1px solid #bbb; }
+
+/* Top A & Bottom B */
+.outer .mod-box-default { background: #fff; }
+
+/* Color: Black */
+.mod-box-black {
+	background: #434343;
+	color: #fff;
+}
+.mod-box-black a:hover { color: #fff; }
+
+.mod-box-black .button-default:hover,
+.mod-box-black .button-primary:hover { background: #fff; }
+
+.mod-box-black ul.line > li { border-color: #fff; }
+
+.mod-box-black ul.zebra > li,
+.mod-box-black table.zebra tbody td,
+.mod-box-black ul.zebra > li:first-child,
+.mod-box-black table.zebra tbody tr:first-child td { border: none; }
+
+.mod-box-black ul.zebra > li.odd,
+.mod-box-black table.zebra tbody tr.odd { background: #666; }
+.mod-box-black ul.zebra > li:nth-of-type(odd),
+.mod-box-black table.zebra tbody tr:nth-of-type(odd) { background: #666; }
+
+.mod-box-black form.style button:hover, 
+.mod-box-black form.style input[type="button"]:hover { background: #fff; }
+
+/* Color: Color */
+.mod-box-color { color: #fff; }
+.mod-box-color a:hover { color: #fff; }
+
+.module.mod-box-color .badge  { background-image: url(../images/module_badges_black.png); }
+
+.mod-box-color .button-default { background: #434343; }
+.mod-box-color .button-primary:hover { background: #fff; }
+
+.mod-box-color em,
+.mod-box-color code { color: #ddd; }
+
+.mod-box-color ul.check > li { background-image: url(../images/tools/list_check_white.png); }
+
+.mod-box-color ul.zebra > li,
+.mod-box-color table.zebra tbody td,
+.mod-box-color ul.zebra > li:first-child,
+.mod-box-color table.zebra tbody tr:first-child td { border: none; }
+
+.mod-box-color form.style button, 
+.mod-box-color form.style input[type="button"] { background: #434343; }
+
+
+/* Module Type: Line
+----------------------------------------------------------------------------------------------------*/
+
+.mod-line:before {
+	content: "";
+	display: block;
+	position: absolute;
+}
+
+.grid-h .mod-line:before {
+	top: 0;
+	bottom: 0;
+	left: -10px;
+	border-width: 0 0 0 1px;
+	border-style: solid;
+	border-color: #ddd;
+}
+
+.grid-v .mod-line:before {
+	top: -10px;
+	left: 0;
+	right: 0;
+	border-width: 1px 0 0 0;
+	border-style: solid;
+	border-color: #ddd;
+}
+
+.grid-h:first-child .mod-line:before,
+.grid-v:first-child .mod-line:before { border-width: 0; }
+
+.grid-v .mod-line { padding: 20px 0; }
+.grid-v:first-child .mod-line { padding-top: 0; }
+
+.grid-v .mod-line .badge { top: 20px; }
+.grid-v:first-child .mod-line .badge { top: 0; }
+
+
+/* Module Type: Headerline
+----------------------------------------------------------------------------------------------------*/
+
+.mod-headerline .module-title {
+	padding-bottom: 15px;
+	border-bottom: 1px solid #ddd;
+	border-bottom: 1px solid rgba(0,0,0,0.15);
+}
+
+#bottom-b .mod-headerline { font-size: 12px; }
+
+.mod-line .badge,
+.mod-headerline .badge { right: 0; }
+
+
+/* Line + Headerline Module style for Top A + Bottom B
+----------------------------------------------------------------------------------------------------*/
+
+.outer .mod-transparent { color: #999; }
+.outer .mod-transparent a { color: #777; }
+
+.outer .mod-transparent a.button-default,
+.outer .mod-transparent a.button-default:hover,
+.outer .mod-transparent a.button-primary,
+.outer .mod-transparent a.button-primary:hover,
+.menu-dropdown .module,
+.menu-dropdown .module a:hover { color: #fff; }

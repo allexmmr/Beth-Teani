@@ -1,0 +1,18 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/*Background Chalk Board*/
+
+@import url(../outercolor/white.css);
+
+#page {	background: #373434 url(../../images/background/chalkboard/chalkboard_bg.jpg) 50% 0 repeat; }
+
+#page-bg { background: url(../../images/background/chalkboard/chalkboard_img.jpg) 50% 0 no-repeat; }
+
+#page-bg > div { 
+	background: url(../../images/background/chalkboard/radial_gradient.svg) 50% 0 no-repeat fixed;
+	background-size: 100% 100%;
+}
+
+.searchbox.loading button { background-image: url(../../images/background/chalkboard/searchbox_loader.gif); }
+
+.custom-logo { background-image: url(../../../../images/yootheme/logo_white.png); }
